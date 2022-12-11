@@ -5,13 +5,15 @@ nitrogen --restore &
 ## Start picom animation
 picom -b &
 ## Fix Java gui
-wmname LG3D
+wmname LG3D &
 ## Start keybindings
-sxhkd
+sxhkd &
 ## enable chinese input
 fcitx5 &
+## enable clipmenu
+clipmenud
 ## Starts notifications
 dunst &
 ## sync files
-syncthing
+syncthing &
 
