@@ -1,5 +1,7 @@
 ## Turn off laptop display
 xrandr --output eDP-1 --off &
+## Status bar
+exec slstatus&
 ## Restore wallpaper
 nitrogen --restore &
 ## Start picom animation
@@ -11,9 +13,9 @@ sxhkd &
 ## enable chinese input
 fcitx5 &
 ## enable clipmenu
-clipmenud
+clipmenud &
 ## Starts notifications
 dunst &
-## sync files
+## Sync files
 syncthing &
 
