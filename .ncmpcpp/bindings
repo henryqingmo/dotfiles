@@ -1,24 +1,26 @@
 def_key "+"
-    show_clock
-def_key "="
     volume_up
+
+def_key "-"
+    volume_down
 
 def_key "j"
     scroll_down
+
 def_key "k"
     scroll_up
 
 def_key "ctrl-u"
     page_up
-#push_characters "kkkkkkkkkkkkkkk"
+
 def_key "ctrl-d"
     page_down
-#push_characters "jjjjjjjjjjjjjjj"
 
 def_key "h"
-    previous_column
+    seek_backward
+
 def_key "l"
-    next_column
+    seek_forward
 
 def_key "."
     show_lyrics
@@ -33,6 +35,7 @@ def_key "J"
     move_sort_order_down
 def_key "K"
     move_sort_order_up
+
 def_key "g"
   move_home
 

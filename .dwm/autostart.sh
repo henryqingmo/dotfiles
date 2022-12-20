@@ -16,8 +16,9 @@ fcitx5 &
 clipmenud &
 ## Starts notifications
 dunst &
-## Sync files
-syncthing &
 ## Music player daemon
 mpd &
 
+mpd-notification &
+## Sync files
+syncthing &
