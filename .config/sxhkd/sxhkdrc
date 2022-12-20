@@ -4,4 +4,9 @@ alt + w
 ## clipmenu
 super + c
   clipmenu
-
+## lockscreen
+super + l
+  slock
+### dolphin
+alt + l
+  dolphin

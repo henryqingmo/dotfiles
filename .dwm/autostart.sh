@@ -18,4 +18,6 @@ clipmenud &
 dunst &
 ## Sync files
 syncthing &
+## Music player daemon
+mpd &
 
