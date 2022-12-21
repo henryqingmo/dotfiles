@@ -14,11 +14,10 @@ sxhkd &
 fcitx5 &
 ## enable clipmenu
 clipmenud &
-## Starts notifications
-dunst &
 ## Music player daemon
 mpd &
-
+## Starts notifications
+dunst &
 mpd-notification &
 ## Sync files
 syncthing &

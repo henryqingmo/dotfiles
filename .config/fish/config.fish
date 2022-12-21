@@ -103,6 +103,10 @@ alias ll='exa -l --color=always --group-directories-first --icons'  # long forma
 alias lt='exa -aT --color=always --group-directories-first --icons' # tree listing
 alias l.="exa -a | egrep '^\.'"                                     # show only dotfiles
 alias ip="ip -color"
+## xclip
+abbr clip "xclip -selection c"
+abbr paste "xclip -selection c -o"
+
 
 # Replace some more things with better alternatives
 alias cat='bat --style header --style snip --style changes --style header'
@@ -156,7 +160,7 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
 ## Run neofetch if session is interactive
 if status --is-interactive && type -q neofetch
-	neofetch
+	neofetch --ascii_distro arch | lolcat
 end
 
 ## Run fish shell in vi mode
