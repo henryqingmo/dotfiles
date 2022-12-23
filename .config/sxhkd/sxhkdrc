@@ -5,7 +5,7 @@ alt + w
 super + c
   clipmenu
 ## lockscreen
-super + l
+alt + l
   slock -m "$(cowsay -f turtle "$(fortune)" | lolcat -ft)" 
 ### dolphin
 alt + e
