@@ -21,3 +21,5 @@ dunst &
 mpd-notification &
 ## Sync files
 syncthing &
+## enable logitech mouse configuration
+logid &
