@@ -4,6 +4,7 @@ SETUVAR __done_min_cmd_duration:10000
 SETUVAR __done_notification_urgency_level:low
 SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_clip:xclip\x20\x2dselection\x20c
+SETUVAR _fish_abbr_copy:xclip\x20\x2dselection\x20c
 SETUVAR _fish_abbr_getclip:xclip\x20\x2dselection\x20c\x20\x2do
 SETUVAR _fish_abbr_paste:xclip\x20\x2dselection\x20c\x20\x2do
 SETUVAR _fish_abbr_setclip:xclip\x20\x2dselection\x20c

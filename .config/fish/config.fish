@@ -104,7 +104,7 @@ alias lt='exa -aT --color=always --group-directories-first --icons' # tree listi
 alias l.="exa -a | egrep '^\.'"                                     # show only dotfiles
 alias ip="ip -color"
 ## xclip
-abbr clip "xclip -selection c"
+abbr copy "xclip -selection c"
 abbr paste "xclip -selection c -o"
 
 

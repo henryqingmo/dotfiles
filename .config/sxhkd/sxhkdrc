@@ -10,3 +10,5 @@ alt + l
 ### dolphin
 alt + e
   dolphin
+alt + k
+  dmenu-bluetooth
