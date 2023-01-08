@@ -23,3 +23,5 @@ mpd-notification &
 syncthing &
 ## enable logitech mouse configuration
 logid &
+## enable screenshots
+spectacle -s &
