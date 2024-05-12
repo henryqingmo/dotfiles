@@ -1,0 +1,3 @@
+# Run
+rofi -modi clipboard:~/.config/hypr/scripts/cliphist-rofi-img -show clipboard -show-icons
+
