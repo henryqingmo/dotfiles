@@ -105,8 +105,8 @@ alias l.="exa -a | egrep '^\.'"                                     # show only 
 alias ip="ip -color"
 alias sl="sl -5 -a -e -F | lolcat"
 ## xclip
-abbr copy "xclip -selection c"
-abbr paste "xclip -selection c -o"
+abbr copy "wl-copy"
+abbr paste "wl-paste"
 
 
 # Replace some more things with better alternatives
@@ -166,4 +166,14 @@ end
 
 ## Run fish shell in vi mode
 fish_vi_key_bindings
+
+##vim_mode copy to clipboard
+
+function fish_user_key_bindings
+  bind yy fish_clipboard_copy
+  bind Y fish_clipboard_copy
+  bind p fish_clipboard_paste
+end
+
+
 

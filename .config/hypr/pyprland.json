@@ -1,0 +1,40 @@
+{
+    "pyprland": 
+      {
+        "plugins": ["scratchpads"]
+      },
+
+    "scratchpads": 
+    {
+        "term": 
+        {
+          "command": "kitty --class  scratchpad",
+          "margin": 345.6
+        },
+        "ranger":
+        {
+          "command": "kitty --class scratchpad -e ranger",
+          "margin": 345.6
+        },
+        "ncmpcpp":    
+        {
+          "command": "kitty --class scratchpad -e ncmpcpp",
+          "margin": 345.6
+        },
+        "htop":
+        {
+          "command": "kitty --class scratchpad -e htop",
+          "margin": 345.6
+        },
+        "pulsemixer":
+        {
+          "command": "kitty --class scratchpad -e pulsemixer",
+          "margin": 345.6
+        },
+        "calcurse":
+        {
+          "command": "kitty --class scratchpad -e calcurse",
+          "margin": 345.6
+        }
+    }
+}
